@@ -3,8 +3,6 @@ spring:
     name: service-registory
 
 eureka:
-  instance:
-    hostname: ims-discovery-server.herokuapp.com
   client:
     registerWithEureka: false
     fetchRegistry: false
